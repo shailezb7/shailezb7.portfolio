@@ -15,9 +15,9 @@ const Header = () => {
             <span className='nav-link home'><a href="#home">Home</a></span>
             <span className='nav-link about'><a href="#about">About</a></span>
             <span className='nav-link skills'><a href='#skills'>Skills</a></span>
-            <span className='nav-link projects'><a href="#project">Projects</a></span>
+            <span className='nav-link projects'><a href="#projects">Projects</a></span>
             <span className='nav-link contact'><a href="#contact">Contact</a></span>
-            <span className='nav-link resume'  id="resume-button-1"><a href={Resume} download={Resume}>Resume</a></span>
+            <span className='nav-link resume'  ><a href={Resume} download={Resume} id="resume-button-1">Resume</a></span>
         </Nav>
         <div
         onClick={() => setBar(!bar)}

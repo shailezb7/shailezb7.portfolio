@@ -11,29 +11,29 @@ import './skills.css';
 const Skills = () => {
   return (
     <Box width={'80%'}  margin={'auto'} bg={'rgb(44,45,55)'} className='nav-link skills' id='skills'>
-        <SimpleGrid columns={3} spacing={'50px'}>
-        <Box><Box><DiHtml5 className='skills-card-img' color='rgb(233,98,40)'/></Box>
+        <SimpleGrid columns={3} spacing={'50px'} >
+        <Box className='skills-card'><Box><DiHtml5 className='skills-card-img' color='rgb(233,98,40)'/></Box>
          <Text color='rgb(197,246,247)' fontSize='2xl' ml={'20px'} className='skills-card-name'> HTML</Text>
         </Box>
-        <Box><SiCss3 className='skills-card-img' color='rgb(42,98,233)'/>
+        <Box className='skills-card'><SiCss3 className='skills-card-img' color='rgb(42,98,233)'/>
         <Text color='rgb(197,246,247)' fontSize='2xl' ml={'20px'} className='skills-card-name'>CSS</Text></Box>
-        <Box><SiJavascript className='skills-card-img' color='rgb(238,215,31)'/>
+        <Box className='skills-card'><SiJavascript className='skills-card-img' color='rgb(238,215,31)'/>
         <Text color='rgb(197,246,247)' fontSize='2xl' className='skills-card-name'>JavaScript</Text></Box>
-        <Box><SiReact className='skills-card-img' color='rgb(3,209,247)'/>
+        <Box className='skills-card'><SiReact className='skills-card-img' color='rgb(3,209,247)'/>
         <Text color='rgb(197,246,247)' fontSize='2xl' ml={'20px'} className='skills-card-name'>React</Text></Box>
-        <Box><FaJava className='skills-card-img' color='red' margin='50px'/>
+        <Box className='skills-card'><FaJava className='skills-card-img' color='red' margin='50px'/>
         <Text color='rgb(197,246,247)' fontSize='2xl' ml={'20px'} className='skills-card-name'>Java</Text></Box>
-        <Box><DiMongodb className='skills-card-img' color='green'/>
+        <Box className='skills-card'><DiMongodb className='skills-card-img' color='green'/>
         <Text color='rgb(197,246,247)' fontSize='2xl' className='skills-card-name'>MondoDB</Text></Box>
-        <Box><SiExpress className='skills-card-img' color='rgb(232,247,247)'/>
+        <Box className='skills-card'><SiExpress className='skills-card-img' color='rgb(232,247,247)'/>
         <Text color='rgb(197,246,247)' fontSize='2xl' className='skills-card-name'>Express JS</Text></Box>
-        <Box><SiRedux className='skills-card-img' color='purple'/>
+        <Box className='skills-card'><SiRedux className='skills-card-img' color='purple'/>
         <Text color='rgb(197,246,247)' fontSize='2xl' ml={'20px'} className='skills-card-name'> Redux</Text></Box>
-        <Box><SiTailwindcss className='skills-card-img' color='rgb(3,209,247)'/>
+        <Box className='skills-card'><SiTailwindcss className='skills-card-img' color='rgb(3,209,247)'/>
         <Text color='rgb(197,246,247)' fontSize='2xl' className='skills-card-name'>Tailwind</Text></Box>
-        <Box><FaNodeJs className='skills-card-img' color='rgb(34,174,90)'/>
+        <Box className='skills-card'><FaNodeJs className='skills-card-img' color='rgb(34,174,90)'/>
         <Text color='rgb(197,246,247)' fontSize='2xl' ml={'10px'} className='skills-card-name'>Node JS</Text></Box>
-        <Box><BsGithub className='skills-card-img' color='black'/>
+        <Box className='skills-card'><BsGithub className='skills-card-img' color='black'/>
         <Text color='rgb(197,246,247)' fontSize='2xl' ml={'20px'} className='skills-card-name'>Github</Text></Box>
     </SimpleGrid>
     {/* <Github/> */}

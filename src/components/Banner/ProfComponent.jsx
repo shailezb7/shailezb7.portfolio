@@ -18,7 +18,7 @@ const ProfComponent = () => {
           </h4>
           <h1 className="green" id="user-detail-name" style={{color:"white"}}>Shailesh Kumar Budakoti</h1>
           <h3 style={{color:"white"}}>Full Stack Web Developer</h3>
-          <p id="user-detail-intro" style={{color:"white"}}>
+          <p  style={{color:"white"}}>
           A passionate MERN Stack Developer. Developing websites using Javascript, React, Node JS, Express JS, and MongoDB. Looking forward to the opportunities that can bring challenges and learnings to leverage and hone skills.
           </p>
           <button id="resume-button-2">Resume</button>
@@ -37,8 +37,8 @@ const ProfComponent = () => {
         </Texts>
       </Slide>
       <Slide direction="right">
-        <Profile className="home-img">
-          <img
+        <Profile >
+          <img className="home-img"
             src={shailez}
             alt="profile"
           />

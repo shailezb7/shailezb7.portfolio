@@ -68,8 +68,8 @@ const Footer = () => {
             <span>
               <FiPhoneCall />
             </span>
-            <Slide direction="left"  id="contact-phone">
-              <a href="tel:+918267906808">+91826796808</a>
+            <Slide direction="left"  >
+              <a href="tel:+918267906808" id="contact-phone">+91826796808</a>
             </Slide>
           </div>
           <div>
@@ -78,8 +78,8 @@ const Footer = () => {
                 <HiOutlineMailOpen />
               </span>
             </Slide>
-            <Slide id="contact-email">
-              <a href="mailto:shailezb7@gmail.com">shailezb7@gmail.com</a>
+            <Slide >
+              <a href="mailto:shailezb7@gmail.com" id="contact-email">shailezb7@gmail.com</a>
             </Slide>
           </div>
         </div>
@@ -88,16 +88,16 @@ const Footer = () => {
             <h1>Check my profiles</h1>
           </Slide>
           <div className="icons">
-            <Zoom  id="contact-github">
+            <Zoom  >
               <span>
-                <a href="https://github.com/shailezb7" target="_blank">
+                <a href="https://github.com/shailezb7" target="_blank" id="contact-github">
                   <AiFillGithub />
                 </a>
               </span>
             </Zoom>
-            <Zoom id="contact-linkedin">
+            <Zoom >
               <span>
-                <a href="https://www.linkedin.com/in/shailesh-budakoti-3384a3231/" target="_blank">
+                <a href="https://www.linkedin.com/in/shailesh-budakoti-3384a3231/" target="_blank" id="contact-linkedin">
                   <AiFillLinkedin />
                 </a>
               </span>
