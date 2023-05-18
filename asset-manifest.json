@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.31914f39.css",
+    "main.js": "/static/js/main.cbc31050.js",
+    "static/media/shailez.jpg": "/static/media/shailez.817a551bc066eddc9c2b.jpg",
+    "static/media/hotstar.png": "/static/media/hotstar.fb683ef574ef7fdf9a47.png",
+    "static/media/skinstorePic.png": "/static/media/skinstorePic.bd13d471399e69822a46.png",
+    "static/media/expedia.png": "/static/media/expedia.215aa31b00047c86ccfa.png",
+    "static/media/Shailesh-Budakoti-Resume.pdf": "/static/media/Shailesh-Budakoti-Resume.eedcb0a80f5e3508add2.pdf",
+    "index.html": "/index.html",
+    "main.31914f39.css.map": "/static/css/main.31914f39.css.map",
+    "main.cbc31050.js.map": "/static/js/main.cbc31050.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31914f39.css",
+    "static/js/main.cbc31050.js"
+  ]
+}
