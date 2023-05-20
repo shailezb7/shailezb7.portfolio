@@ -45,7 +45,7 @@ const ProfComponent = () => {
         </Profile>
       </Slide>
     </Container>
-    <About/>
+    {/* <About/> */}
     </>
     
   );
