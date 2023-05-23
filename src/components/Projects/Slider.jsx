@@ -34,14 +34,14 @@ let data = [
         github:"https://github.com/seakash1204/expedia_clone"
       },
 
-      // {
-      //   title:'Expedia-clone',
-      //   img : expedia,
-      //   techstack:['HTML','CSS','Javascript','Bootstrap'],
-      //   disc : " An online travel agency that can be used to book airline tickets, hotel reservations, car rentals, cruise ships, and vacation packages.",
-      //   deployed:"https://effulgent-crostata-f624a5.netlify.app/",
-      //   github:"https://github.com/seakash1204/expedia_clone"
-      // }
+      {
+        title:'Expedia-clone',
+        img : expedia,
+        techstack:['HTML','CSS','Javascript','Bootstrap'],
+        disc : " An online travel agency that can be used to book airline tickets, hotel reservations, car rentals, cruise ships, and vacation packages.",
+        deployed:"https://effulgent-crostata-f624a5.netlify.app/",
+        github:"https://github.com/seakash1204/expedia_clone"
+      }
 ];
 
 var settings = {

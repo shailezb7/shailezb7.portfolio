@@ -14,7 +14,7 @@ function App() {
       <Banner>
         <Header />     
         <ProfComponent />
-        {/* <About/> */}
+        <About/>
       </Banner >
 
       <LightColor>
