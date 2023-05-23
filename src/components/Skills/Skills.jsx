@@ -10,7 +10,7 @@ import './skills.css';
 
 const Skills = () => {
   return (
-    <Box width={'80%'}  margin={'auto'} bg={'rgb(44,45,55)'} className='nav-link skills' id='skills'>
+    <Box width={'80%'}  margin={'auto'} bg={'rgb(44,45,55)'}  id='skills'>
         <SimpleGrid columns={3} spacing={'50px'} >
         <Box className='skills-card'><Box><DiHtml5 className='skills-card-img' color='rgb(233,98,40)'/></Box>
          <Text color='rgb(197,246,247)' fontSize='2xl' ml={'20px'} className='skills-card-name'> HTML</Text>

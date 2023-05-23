@@ -1,13 +1,14 @@
 import React from 'react'
 import GitHubCalendar from "react-github-calendar";
+import './Github.css';
 
 const Github = () => {
   return (
     <section  className="sections">
-      <h1 className="heading">My Contributions and Stats</h1>
-      <div >
-
+       <h1 className="heading">My Contributions and Stats</h1>
+      <div className='box'>
       <GitHubCalendar
+      
         fontSize={16}
         blockSize={10}
         year={2023}

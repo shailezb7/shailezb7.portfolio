@@ -1,0 +1,13 @@
+.sections{
+    text-align: center;
+    font-size: larger;
+    color: white;
+}
+h1{
+    margin-bottom: 20px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    
+}

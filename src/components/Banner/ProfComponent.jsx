@@ -21,7 +21,10 @@ const ProfComponent = () => {
           <p  style={{color:"white"}}>
           A passionate MERN Stack Developer. Developing websites using Javascript, React, Node JS, Express JS, and MongoDB. Looking forward to the opportunities that can bring challenges and learnings to leverage and hone skills.
           </p>
+          <a href="geeksforgeeks.png" download="GFG">
           <button id="resume-button-2">Resume</button>
+         </a>
+         
           <Social>
             <p style={{color:"white"}}>Check out my</p>
             <div className="social-icons">
